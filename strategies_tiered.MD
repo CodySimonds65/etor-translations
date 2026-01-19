@@ -8,6 +8,26 @@
 - **Cube**: 36-52 (T7+)
 - **Dark Surge**: 36+20 (T8+)
 
+## Pet Entry Levels and Breakpoints
+*Note: All level 6 pets are good, but only marked where absolutely necessary*
+
+### Recommended Investment
+- **Arcana**: 1, 3, 5 (6 is huge but not necessary)
+- **Outlaw**: 1, 3, 5
+- **Overrealm**: 1, 3, 5
+- **Cube**: 1, 3, 5 (6 is huge but not necessary)
+- **Dark Surge**: 1-6
+- **Blacksail**: 1 only
+- **Dream**: 1+ (every level is a breakpoint)
+- **Sandlord**: 0-1, then 2, 4, 6 for passive income
+- **Frozen Canvas**: 1 (low spend friendly)
+
+### Situational/Specialized
+- **Mistville**: 2-5 (level 6 needed for month 8, else stop at 7)
+- **Alice**: 3-6 + **Dorothy 6** (Moby Dick only)
+- **Kong**: Heavily nerfed then slightly buffed, needs testing
+- **Aeterna**: Needs testing after changes
+
 ---
 
 ## Early Maps
