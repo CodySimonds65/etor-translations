@@ -72,7 +72,8 @@ Need damage? - Burst of Anger - Well-Fought Battle
 4. ~800 FE amulet, is ~30% upgrade from the gods (maybe more depending on multis)
 
 5. ~600 FE attempt at corrupt glove for a 30% chance at 1/5 a like 80% more multi
-    - Might still be worth using if it misses, need to step
+    - Might still be worth using if it misses, need to test
+    - 1000% Crit Rating without the gloves
 
 6. ~150 fe attempt at corrupt helmet for a 30% chance at 1/2 of +30% something? 
 
