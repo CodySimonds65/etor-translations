@@ -103,7 +103,13 @@ Buffs we are trying to maintain:
 2. Agility Blessing
 3. Feline Stimulant (Kitty Express)
 4. Heat Up (attack faster)
-5. 
+5. Focus Blessing
+
+Debuffs we are trying to maintain:
+1. Paralysis
+2. Numb
+3. Lightning Infiltration
+4. Marked
 
 ### Traveler 8 @ 10b DP5S (30b preferred)
 
