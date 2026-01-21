@@ -64,32 +64,34 @@ Need damage? - Burst of Anger - Well-Fought Battle
 #### Pushing to 200b DP5S for Profound
 1. ~20 FE Better false god's idol is ~55%
 
-2. [5x DP5S] ~225 FE get proj speed hero memories with other mods
+1. [5x DP5S] ~225 FE get proj speed hero memories with other mods
     - Makes blind helmet useful
     - 5x damage multi for 3 decent ones at level 40
 
-3. [2x DP5S] ~600 FE Death's Touch for 2x damage
+1. [2x DP5S] ~600 FE Death's Touch for 2x damage
     - Corrupt for a 30% chance at even more damage
 
-3. [1.5x DP5S] Buy a Dawn breaker & blend it for +1 attack skill
+1. [1.5x DP5S] ~100 FE Improve random affixes on Hero Memories
 
-4. [1x-3x DP5S] ~1000 FE `Trinity` chest
+1. [1.5x DP5S] Buy a Dawn breaker & blend it for +1 attack skill
+
+1. [1x-3x DP5S] ~1000 FE `Trinity` chest
     - This chestpiece requires you to balance Lightning/Cold/Fire res
     - DPS is significant worse if you neglect this
     - Equip `Precise:Elemental Resistance` if needed to fix res
 
-5. Ethereal Prism: Sweeping Fury
+1. Ethereal Prism: Sweeping Fury
     - Get a Res affix on this to assist with the Trinity damage
 
-6. Cheap 2-mod slates
+1. Cheap 2-mod slates
 
-7. ~800 FE Heart of the Storm, is ~30% upgrade from the gods (maybe more depending on multis)
+1. ~800 FE Heart of the Storm, is ~30% upgrade from the gods (maybe more depending on multis)
 
-8. ~150 fe attempt at corrupt helmet for a 30% chance at 1/2 of +30% something? 
+1. ~150 fe attempt at corrupt helmet for a 30% chance at 1/2 of +30% something? 
 
-9. ~1000 FE make a real priceless weapon
+1. ~1000 FE make a real priceless weapon
 
-10. ~800 FE make a priceless ring?
+1. ~800 FE make a priceless ring?
 
 Buffs we are trying to maintain:
 1. Fervor
