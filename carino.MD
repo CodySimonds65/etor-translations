@@ -59,6 +59,26 @@ Farm i86 weapon and craft 4-6 T1 mods
 Deal enough damage? - Speed Phantom + Magic Dash + Cooldown Reduction + Mass Effect
 Need damage? - Burst of Anger - Well-Fought Battle
 
+
+#### Pushing to 200b DP5S for Profound
+1. Better false god's idol is ~30%
+
+2. ? FE get proj speed hero memories with other mods
+    - Makes blind helmet useful
+
+3. Buy a Dawn breaker & blend it for +1 attack skill
+
+4. ~800 FE amulet, is ~30% upgrade from the gods (maybe more depending on multis)
+
+5. ~600 FE attempt at corrupt glove for a 30% chance at 1/5 a like 80% more multi
+    - Might still be worth using if it misses, need to step
+
+6. ~150 fe attempt at corrupt helmet for a 30% chance at 1/2 of +30% something? 
+
+7. ~800 FE make a priceless ring?
+
+8. ~1000 FE make a real priceless weapon
+
 ### Traveler 8 @ 10b DP5S (30b preferred)
 
 ### Profound - ArcanaJack (100-200b DP5S)
