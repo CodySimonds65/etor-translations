@@ -51,7 +51,7 @@ Replace hero memories with level 40 epics
 
 ### Traveler 7 @ 100m DP5S (300m preferred)
 
-### T8 - CubeSail / Arcana / ?Gods Chest? (300m DP5S)
+### T8 - CubeSail / Arcana / ?Gods Chest? (100m entry, 300m DP5S farm)
 Farm i86 weapon and craft 4-6 T1 mods
 - 1 mod slates
 - False God's Skin
