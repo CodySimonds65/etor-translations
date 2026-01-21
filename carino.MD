@@ -1,7 +1,7 @@
 # Carino 3 (DivineShot)
 
 ### Battle Pets
-DPS check at dummy to see what ones of yours help the most, this may change as you get more gear
+DP5S check at dummy to see what ones of yours help the most, this may change as you get more gear
 
 #### Legendary
 - Lion 1 -> 6
@@ -22,41 +22,146 @@ DPS check at dummy to see what ones of yours help the most, this may change as y
 - Awooawoo - Violet
 
 
-## Progression
-### T1 - Currency Focus BossRush (? DPS)
+## Progression Info
+### T1 - Currency Focus BossRush (? DP5S)
 Pick up high-energy items, equip them and fill affixes
 
-### T2 - Currency Focus BossRush (? DPS)
+### T2 - Currency Focus BossRush (? DP5S)
 Pick up high-energy items, equip them and fill affixes
 
-### T3 - Currency Focus BossRush (? DPS)
+### T3 - Currency Focus BossRush (? DP5S)
 Pick up high-energy items, equip them and fill affixes
 
-### T4 - Currency Focus BossRush (? DPS)
+### T4 - Currency Focus BossRush (? DP5S)
 Pick up high-energy items, equip them and fill affixes
 
-### T5 - Currency Focus BossRush (? DPS)
+### T5 - Currency Focus BossRush (? DP5S)
 Further upgrade your T1-T4 items, the materials are free
-If you haven't met the T7 Entry DPS, craft an i78 item
+If you haven't met the T7 Entry DP5S, craft an i78 item
 
-## T6 - Blacksail (? DPS)
+### T6 - Blacksail (? DP5S)
 Replace & start upgrading your hero memories
 
-## T7 - CubeSail (? DPS)
+### T7 - CubeSail (? DP5S)
 Farm i82 bases and craft 4-6x T2 mods
 Blend your belt
 Dream your ?
 Replace hero memories with level 40 epics
 
-## T8 - CubeSail / Arcana / ?Gods Chest? (300m DPS)
+### Traveler 7 @ 100m DP5S (300m preferred)
+
+### T8 - CubeSail / Arcana / ?Gods Chest? (300m DP5S)
 Farm i86 weapon and craft 4-6 T1 mods
-Dream your weapon
+- 1 mod slates
+- False God's Skin
+- 6x T1 Gear
 
-Buy Trinity
+- Trinity Chestpiece
+- 
 
-## Profound - ArcanaJack
+### Traveler 8 @ 10b DP5S (30b preferred)
 
-### [Poogf](https://www.twitch.tv/poogf01) S11 Codes
+### Profound - ArcanaJack
+
+### Deep Space - Overrealm
+
+## Gear Progression
+### Helmet
+1. i70-i81 crafted 3 mod that gives damage to get into T7
+2. i82 crafted Dex/Damage/Proj Speed/Crit strike rating to get into T8
+3. Blind Vision
+4. Blind Vision Double Corrupt
+    - Wind Projectiles
+    - Projectile speed bonus applied
+5. Priceless
+    - Base Stat Sealed Mana & Max Ele Res
+    - Prefix Dex/Sealed Mana/+10 Support
+    - Suffix CCrit Damage/Res
+
+### Amulet
+1. i70-i81 crafted 3 mod that gives damage to get into T7
+1. Chain of Resistance
+2. False God's Idol (Dex/Dex/Dex/Damage highest stat)
+3. Heart of the Storm
+4. Heart of the Storm Corrupted
+    - Storm Effect
+
+### Belt
+1. i70-i81 crafted 3 mod that gives damage to get into T7
+2. i82 Dex/Damage/Life/3x Res
+3. Dawn Breaker (Dex/Str, Dex better until BB)
+4. Eternity
+
+### Rings
+1. Born in the Fire
+2. 1x Unholy Prayer
+3. 1x Damage/Flat damage/crit rating/crit damage
+4. Priceless ring(s)
+    - ES/Dex/Armor dmg mit pen/res/additional damage for main-hand
+5. Vorax Ring
+    - Blade-dancer's Steps mobility cooldown
+    - Blade-dancer's Steps addiitonal damage
+    - +2 attack skill level affix
+    - Crit rating
+    - additional mainhand damage
+
+### Body Armour
+1. i70-i81 crafted 3 mod that gives damage to get into T7
+2. i82 crafted Damage/Attack Speed/Crit Damage to get into T8
+3. Cheapest Trinity
+4. +0 or better max ele res trinity with corrupted Edict for 6x multi
+
+### Gloves
+1. Damage/Attack Speed/Crit Damage
+2. Death's Touch corrupted
+    - 500 max Crit Rating needs to be changed to +25 attack and spell crit rating
+
+### Boots
+1. Trickster's Tread
+2. Long Night's Sorcerer Boots
+3. Blade-dancer's Steps
+4. Blade-dancer's Steps corrupted
+    - 0.6 -> 0.3 
+5. Lone Walker's Boots
+6. Lone Walker's Boots corrupted
+
+### Weapon (Bow/Crossbow/Musket)
+1. i82 weapon with enough t2 mods to get to t8 DP5S calc
+1. i86 weapon with enough t1 mods to farm t8 comfortably
+    - Dream it for some easy DP5S
+1. Priceless Weapon with Elemental Damage to the gear mod + whatever you can get
+    - 16.38% chance to hit @ 2 ultimate embers each
+    - Prefix: Elemental Damage to the Gear / Dex / Proj Damage
+    - Suffix: Crit Damage / Elemental Damage / Gear attack speed
+    - Dream weapon for anything
+    - Sequence weapon for anything
+1. Priceless Weapon with good Base Stat
+    - Base Stat: +2 Projectile > +2 Horizontal Projectile penetration > Any damage/crit rolls
+    - T1 Elemental Damage to the gear mod + whatever you can get
+    - Prefix: Elemental Damage to the Gear / Dex / Proj Damage
+    - Suffix: Crit Damage / Elemental Damage / Gear attack speed
+    - Dream weapon for +1 proj
+    - Sequence weapon for 16% all stat?
+
+### Hero Memories
+Random Affixes - Crit Strike Damage > Crit Strike rating > Attack and Cast Speed > Max ES%
+
+#### Memory of Origin Fixed Affixes
+1. Damage
+2. +2 Hero Trait
+
+#### Memory of Discipline Fixed Affixes
+1. Base Stat Projectile Speed & Life
+
+#### Memory of Progress Fixed Affixes
+1. Base Stat Projectile Speed & Damage/Crit/Crit Rating
+1. 
+
+### Slates
+
+## [Poogf](https://www.twitch.tv/poogf01) S11 Codes
+
+### LS
 C3 59LV: I20sLvKOEfCIkgAAAAAA5w==
 81LV: glcqc/KaEfCIkgAAAAAA5w==
 90LV: ny4+FPKmEfCIkgAAAAAA5w==
@@ -66,7 +171,7 @@ C3 59LV: I20sLvKOEfCIkgAAAAAA5w==
 96LV: SAs2V/NnEfCG7gAAAAAAMw==
 96 LAST: /dXSKfRSEfCx4AAAAAAAPQ==
 
-熾炎穿彈(BB)輸入
+### BB
 BB1: 8QRrkvRvEfCx4QAAAAAAPQ==
 BB2: sGjhvfUhEfCK2AAAAAAA1A==
 BB3: AY5qxvXqEfCsnQAAAAAAmA==
