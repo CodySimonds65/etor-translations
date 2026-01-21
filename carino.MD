@@ -62,18 +62,20 @@ Need damage? - Burst of Anger - Well-Fought Battle
 
 
 #### Pushing to 200b DP5S for Profound
-1. Better false god's idol is ~30%
+1. Better false god's idol is ~55%
 
-2. ? FE get proj speed hero memories with other mods
+2. ~225 FE get proj speed hero memories with other mods
     - Makes blind helmet useful
+    - 5x damage multi for 3 decent ones at level 40
+
+3. ~600 FE glove for 2x damage
+    - Corrupt for a 30% chance at even more damage
 
 3. Buy a Dawn breaker & blend it for +1 attack skill
 
+
 4. ~800 FE amulet, is ~30% upgrade from the gods (maybe more depending on multis)
 
-5. ~600 FE attempt at corrupt glove for a 30% chance at 1/5 a like 80% more multi
-    - Might still be worth using if it misses, need to test
-    - 1000% Crit Rating without the gloves
 
 6. ~150 fe attempt at corrupt helmet for a 30% chance at 1/2 of +30% something? 
 
@@ -165,9 +167,29 @@ Need damage? - Burst of Anger - Well-Fought Battle
 
 ### Hero Memories
 Random Affixes - Crit Strike Damage > Crit Strike rating > Attack and Cast Speed > Max ES%
+1. Epic Memory of Origin (849 memory scrap + 27 epic thread) = ~56
+    - Dex
+    - 30% Proj Speed
+    - Crit Dmg / Attack and Cast Speed / 
+    - ? Lightning Dmg/Lightning Skill Crit Dmg
 
-#### Memory of Origin Fixed Affixes
-1. Damage
+1. Epic Memory of Discipline (849 memory scrap + 27 epic thread) = ~56
+    - 30% Proj Speed
+    - Crit Dmg / Attack and Cast Speed
+    - ? Lightning Dmg/Lightning Skill Crit Dmg
+
+
+1. Ultimate Memory of Discipllinek
+    - Life
+    - % Max life
+    - % Proj Speed
+    -
+
+#### Memory of Origin
+Base Stat - Dex
+Fixed Stat - Proj Speed
+
+1. Proj Speed + Damage
 2. +2 Hero Trait
 
 #### Memory of Discipline Fixed Affixes
