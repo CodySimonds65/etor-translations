@@ -22,6 +22,39 @@ DPS check at dummy to see what ones of yours help the most, this may change as y
 - Awooawoo - Violet
 
 
+## Progression
+### T1 - Currency Focus BossRush (? DPS)
+Pick up high-energy items, equip them and fill affixes
+
+### T2 - Currency Focus BossRush (? DPS)
+Pick up high-energy items, equip them and fill affixes
+
+### T3 - Currency Focus BossRush (? DPS)
+Pick up high-energy items, equip them and fill affixes
+
+### T4 - Currency Focus BossRush (? DPS)
+Pick up high-energy items, equip them and fill affixes
+
+### T5 - Currency Focus BossRush (? DPS)
+Further upgrade your T1-T4 items, the materials are free
+If you haven't met the T7 Entry DPS, craft an i78 item
+
+## T6 - Blacksail (? DPS)
+Replace & start upgrading your hero memories
+
+## T7 - CubeSail (? DPS)
+Farm i82 bases and craft 4-6x T2 mods
+Blend your belt
+Dream your ?
+Replace hero memories with level 40 epics
+
+## T8 - CubeSail / Arcana / ?Gods Chest? (300m DPS)
+Farm i86 weapon and craft 4-6 T1 mods
+Dream your weapon
+
+Buy Trinity
+
+## Profound - ArcanaJack
 
 ### [Poogf](https://www.twitch.tv/poogf01) S11 Codes
 C3 59LV: I20sLvKOEfCIkgAAAAAA5w==
@@ -38,3 +71,5 @@ BB1: 8QRrkvRvEfCx4QAAAAAAPQ==
 BB2: sGjhvfUhEfCK2AAAAAAA1A==
 BB3: AY5qxvXqEfCsnQAAAAAAmA==
 BB4: t0tjYPZ+EfCLrwAAAAAAog==
+
+
