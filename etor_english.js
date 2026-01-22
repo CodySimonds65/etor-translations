@@ -15,9 +15,6 @@ const translations = {
   '涨跌幅': 'Change',
   '最High价': 'Highest',
   '最Low价': 'Lowest',
-  '被动Skills': 'Passive Skills',
-  '主动Skills': 'Active Skills',
-
   '被动技能': 'Passive Skills',
   '辅助技能': 'Support Skills',
   '主动技能': 'Active Skills',
