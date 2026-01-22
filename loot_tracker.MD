@@ -23,7 +23,7 @@ However, it is in Chinese.
 
 
 ### Before
-![alt text](loot_tracker/before.png)
+![alt text](./translations/before.png)
 
 ### After
-![alt text](loot_tracker/after.png)
+![alt text](./translations/after.png)
