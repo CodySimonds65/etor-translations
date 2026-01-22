@@ -4416,20 +4416,20 @@ observer.observe(document.body, {
   characterData: true
 });
 
-function findUntranslated() {
-  const chineseRegex = /[\u4e00-\u9fff]+/g;
-  const found = new Set();
-  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
-  while (walker.nextNode()) {
-    const matches = walker.currentNode.textContent.match(chineseRegex);
-    if (matches) matches.forEach(m => {
-      if (!ignoreList.includes(m)) {
-        found.add(m);
-      }
-    });
-  }
-  console.log('Untranslated Chinese:', [...found]);
-  return [...found];
-}
+// function findUntranslated() {
+//   const chineseRegex = /[\u4e00-\u9fff]+/g;
+//   const found = new Set();
+//   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+//   while (walker.nextNode()) {
+//     const matches = walker.currentNode.textContent.match(chineseRegex);
+//     if (matches) matches.forEach(m => {
+//       if (!ignoreList.includes(m)) {
+//         found.add(m);
+//       }
+//     });
+//   }
+//   console.log('Untranslated Chinese:', [...found]);
+//   return [...found];
+// }
 
-console.log('💡 Run findUntranslated() to find missing translations');
+// console.log('💡 Run findUntranslated() to find missing translations');
