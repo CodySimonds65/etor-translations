@@ -16,6 +16,20 @@ const sortedTranslations = Object.entries(allTranslations)
   }));
 
 const translatedNodes = new WeakSet<Node>();
+const hiddenElements = new WeakSet<Element>();
+
+function hideUnwantedElements(root: Element | Document): void {
+  const elements = root.querySelectorAll('.text-sm.font-medium.text-slate-700');
+  for (const el of elements) {
+    if (el.textContent?.includes('火价折算')) {
+      const container = el.closest('.flex.items-center.justify-between');
+      if (container && !hiddenElements.has(container)) {
+        (container as HTMLElement).style.display = 'none';
+        hiddenElements.add(container);
+      }
+    }
+  }
+}
 
 function translateText(text: string): string {
   let result = text;
@@ -86,6 +100,7 @@ function processPendingTranslations(): void {
     if (!document.contains(node)) continue;
 
     if (node.nodeType === Node.ELEMENT_NODE) {
+      hideUnwantedElements(node as Element);
       translateElement(node as Element);
     } else if (node.nodeType === Node.TEXT_NODE) {
       if (translatedNodes.has(node)) continue;
@@ -102,7 +117,7 @@ function processPendingTranslations(): void {
   }
 }
 
-// Initial translation
+hideUnwantedElements(document);
 translateElement(document.body);
 
 // MutationObserver for dynamic content
