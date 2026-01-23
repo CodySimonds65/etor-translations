@@ -1,7 +1,7 @@
 {
   "name": "tlidb-translator",
   "version": "1.0.1",
-  "description": "Translation system for Torchlight Infinite DB - CN/EN",
+  "description": "Translation system for ETOR via Torchlight Infinite DB",
   "type": "module",
   "scripts": {
     "build": "tsx src/scripts/build-translations.ts",

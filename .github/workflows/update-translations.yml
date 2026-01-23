@@ -78,7 +78,6 @@ jobs:
             Automated translation update from TLIDB
 
             - Updated translations from TLIDB API
-            - Built userscript for browser extension
           files: etor-english-script.js
           draft: false
           prerelease: false
