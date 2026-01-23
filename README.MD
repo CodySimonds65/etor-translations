@@ -4,8 +4,6 @@
 
 [Releases](https://github.com/ChandlerFerry/etor-translations/releases)
 
-# ETOR
-
 [FAQ](./docs/etor-faq.MD)
 
 ### Method 1: Pre-built (Recommended)
