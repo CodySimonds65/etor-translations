@@ -1,4 +1,4 @@
-name: Manual Release
+name: UI Translation Release
 
 on:
   workflow_dispatch:
@@ -53,9 +53,9 @@ jobs:
           tag_name: v${{ steps.version.outputs.new_version }}
           name: Release v${{ steps.version.outputs.new_version }}
           body: |
-            Manual release
+            UI Translation release
 
-            - Release build with current translations
+            - Release build with updated UI translations
           files: |
             etor-english.js
             build/etor-english.zip
