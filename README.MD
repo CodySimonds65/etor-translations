@@ -27,14 +27,18 @@ This method requires you to have the [original ETOR application](./docs/etor-faq
     - [etor-russian.js](./etor-russian.js)
 4. Close the console.
 
+## Showcase
+
 <details>
-<summary><b>Click to see Before & After screenshots</b></summary>
+<summary><b>Click to see screenshots of what we are capable of</b></summary>
 
-### Before
-![alt text](./docs/before.png)
-
-### After
-![alt text](./docs/after.png)
+| Overview | Items |
+|---|---|
+| ![Overview](./docs/overview.png) | ![Items](./docs/items.png) |
+| **History** | **Price Fluctuation** |
+| ![History](./docs/history.png) | ![Price Fluctuation](./docs/price-fluctuation.png) |
+| **Leaderboard** | **Mini Window** |
+| ![Leaderboard](./docs/leaderboard.png) | ![Mini Window](./docs/mini-window.png) |
 
 </details>
 
