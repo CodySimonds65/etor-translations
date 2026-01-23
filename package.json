@@ -11,8 +11,9 @@
     "release": "tsx src/scripts/release.ts"
   },
   "devDependencies": {
-    "7zip-min": "^2.1.0",
     "@types/node": "^25.0.10",
+    "7zip-min": "^2.1.0",
+    "esbuild": "^0.27.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },

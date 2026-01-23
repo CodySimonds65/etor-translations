@@ -1,3 +1,5 @@
+import { databaseData } from "./translations.js";
+import { uiTranslations } from "./ui-translations.js";
 const allTranslations = { ...databaseData, ...uiTranslations };
 const sortedTranslations = Object.entries(allTranslations)
   .sort((a, b) => b[0].length - a[0].length)
