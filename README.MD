@@ -34,7 +34,7 @@ This method requires you to have the [original ETOR application](./docs/etor-faq
 
 | Overview | Items |
 |---|---|
-| ![Overview](./docs/overview.png) | ![Items](./docs/items.png)|
+| ![Overview](./docs/main.png)| ![Items](./docs/items.png)|
 | **History** | **Price Fluctuation** |
 | ![History](./docs/history.png)| ![Price Fluctuation](./docs/pricedatabase.png)
 | **Leaderboard** | **Mini Window** |
