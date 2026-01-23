@@ -127,7 +127,12 @@ const observer = new MutationObserver((mutations) => {
       queueTranslation(node);
     }
     if (mutation.type === 'characterData') {
-      queueTranslation(mutation.target);
+      const text = mutation.target.textContent || '';
+      const textWithoutToolName = text.replace(/易火/g, '');
+      if (/[\u4e00-\u9fff]/.test(textWithoutToolName)) {
+        translatedNodes.delete(mutation.target);
+        queueTranslation(mutation.target);
+      }
     }
   }
 });
