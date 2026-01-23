@@ -20,6 +20,10 @@ function translateText(text: string): string {
   for (const { pattern, translated } of sortedTranslations) {
     result = result.replace(pattern, translated);
   }
+
+  // Postfix to protect tool's name
+  result = result.replace(/易🔥/g, '易火');
+
   return result;
 }
 
