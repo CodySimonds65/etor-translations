@@ -2,18 +2,18 @@
 # ETOR Translations for Torchlight Infinite (Loot Tracker, Price History, Leaderboards, etc.)
 [Donate @ Ko-fi](https://ko-fi.com/deafwave)
 
-[Releases](https://github.com/ChandlerFerry/torchlight-infinite-guides/releases)
+[Releases](https://github.com/ChandlerFerry/etor-translations/releases)
 
 # ETOR
 
 [FAQ](./docs/etor-faq.MD)
 
 ### Method 1: Pre-built (Recommended)
-1. Go to [Releases](https://github.com/ChandlerFerry/torchlight-infinite-guides/releases)
+1. Go to [Releases](https://github.com/ChandlerFerry/etor-translations/releases)
 2. Download and unzip the latest release.
 3. Run the executable.
 
-Builds are automated via [GitHub Actions](https://github.com/ChandlerFerry/torchlight-infinite-guides/actions).
+Builds are automated via [GitHub Actions](https://github.com/ChandlerFerry/etor-translations/actions) for security.
 
 ### Method 2: Manual
 This method requires you to have the [original ETOR application](./docs/etor-faq.MD#where-can-i-download-the-original-etor).
@@ -30,7 +30,7 @@ This method requires you to have the [original ETOR application](./docs/etor-faq
 ## Showcase
 
 <details>
-<summary><b>Click to see screenshots of what we are capable of</b></summary>
+<summary><b>Click to see screenshots of what ETOR is capable of</b></summary>
 
 | Overview | Items |
 |---|---|
