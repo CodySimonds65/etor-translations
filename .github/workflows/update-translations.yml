@@ -1,0 +1,65 @@
+# Updates translations daily from TLIDB and commits changes to the repository
+name: Update Translations
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.repository }}-update-translations
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  # packages: write
+
+jobs:
+  update-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+
+      - name: Ensure on default branch (not detached HEAD)
+        shell: bash
+        run: |
+          BRANCH="${{ github.event.repository.default_branch }}"
+          git checkout -B "$BRANCH"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Pull translations and update etor_english.js
+        run: npm run pull
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        id: commit
+        with:
+          message: 'chore: update translations from TLIDB'
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          add: 'src/translations.json src/etor_english.js'
+          push: false
+
+      - name: Bump patch version and push
+        if: steps.commit.outputs.committed == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Bump patch version, create tag and commit
+          pnpm version patch -m "chore: release %s"
+          # Push commit and tags
+          git push
+          git push --tags

@@ -1,0 +1,23 @@
+{
+  "name": "tlidb-translator",
+  "version": "1.0.0",
+  "description": "Translation system for Torchlight Infinite DB - CN/EN",
+  "type": "module",
+  "scripts": {
+    "build": "tsx src/scripts/build-translations.ts",
+    "translate": "tsx src/scripts/translate.ts",
+    "update-etor": "tsx src/scripts/update-etor.ts",
+    "pull": "npm run build && npm run update-etor"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0"
+  },
+  "keywords": [
+    "torchlight-infinite",
+    "translation",
+    "tlidb"
+  ],
+  "license": "MIT"
+}

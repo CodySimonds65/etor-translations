@@ -2,50 +2,45 @@ import { readFileSync, existsSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
+type TranslationDictionary = Record<string, string>;
+
+interface SearchResult {
+  cn: string;
+  en: string;
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const rootDir = join(__dirname, '..');
+const srcDir = join(__dirname, '..');
 
-const translationsPath = join(rootDir, 'translations.json');
+const translationsPath = join(srcDir, 'translations.json');
 
 if (!existsSync(translationsPath)) {
   console.error('Error: translations.json not found. Run "npm run build" first.');
   process.exit(1);
 }
 
-// Simple CN -> EN dictionary
-const cnToEn = JSON.parse(readFileSync(translationsPath, 'utf-8'));
+const cnToEn: TranslationDictionary = JSON.parse(readFileSync(translationsPath, 'utf-8'));
 
-// Build reverse lookup (EN -> CN)
-const enToCn = Object.fromEntries(
+const enToCn: TranslationDictionary = Object.fromEntries(
   Object.entries(cnToEn).map(([cn, en]) => [en, cn])
 );
 
-/**
- * Translate Chinese to English
- */
-function translateCnToEn(text) {
+function translateCnToEn(text: string): string | null {
   return cnToEn[text] || null;
 }
 
-/**
- * Translate English to Chinese
- */
-function translateEnToCn(text) {
+function translateEnToCn(text: string): string | null {
   return enToCn[text] || null;
 }
 
-/**
- * Search translations
- */
-function search(query) {
+function search(query: string): SearchResult[] {
   const lower = query.toLowerCase();
   return Object.entries(cnToEn)
     .filter(([cn, en]) => cn.toLowerCase().includes(lower) || en.toLowerCase().includes(lower))
     .map(([cn, en]) => ({ cn, en }));
 }
 
-// CLI
 const args = process.argv.slice(2);
 
 if (args.length === 0) {

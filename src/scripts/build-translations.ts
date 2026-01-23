@@ -2,16 +2,22 @@ import { writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
+interface AutocompleteItem {
+  value: string;
+  label: string;
+}
+
+type TranslationDictionary = Record<string, string>;
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const rootDir = join(__dirname, '..');
+const srcDir = join(__dirname, '..');
 
 const CN_URL = 'https://tlidb.com/i18n/autocomplete_cn.json';
 const EN_URL = 'https://tlidb.com/i18n/autocomplete_en.json';
 
 console.log('Fetching translation data from TLIDB API...');
 
-// Fetch both autocomplete files from API
 const [cnResponse, enResponse] = await Promise.all([
   fetch(CN_URL),
   fetch(EN_URL)
@@ -24,16 +30,16 @@ if (!enResponse.ok) {
   throw new Error(`Failed to fetch EN data: ${enResponse.status} ${enResponse.statusText}`);
 }
 
-const cnData = await cnResponse.json();
-const enData = await enResponse.json();
+const cnData: AutocompleteItem[] = await cnResponse.json();
+const enData: AutocompleteItem[] = await enResponse.json();
 
 console.log(`Fetched ${cnData.length} CN entries and ${enData.length} EN entries`);
 
-// Create lookup map for EN by value
-const enByValue = new Map(enData.map(item => [item.value, item]));
+const enByValue = new Map<string, AutocompleteItem>(
+  enData.map(item => [item.value, item])
+);
 
-// Build simple CN -> EN translation dictionary
-const translations = {};
+const translations: TranslationDictionary = {};
 let matched = 0;
 
 for (const cnItem of cnData) {
@@ -46,9 +52,8 @@ for (const cnItem of cnData) {
   }
 }
 
-// Write the translation file
 writeFileSync(
-  join(rootDir, 'translations.json'),
+  join(srcDir, 'translations.json'),
   JSON.stringify(translations, null, 2),
   'utf-8'
 );
