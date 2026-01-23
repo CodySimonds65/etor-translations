@@ -15,6 +15,8 @@ const sortedTranslations = Object.entries(allTranslations)
     translated
   }));
 
+const translatedNodes = new WeakSet<Node>();
+
 function translateText(text: string): string {
   let result = text;
   for (const { pattern, translated } of sortedTranslations) {
@@ -36,11 +38,14 @@ function translateElement(element: Element): void {
 
   let node: Node | null;
   while ((node = walker.nextNode())) {
+    if (translatedNodes.has(node)) continue;
+
     const original = node.textContent;
     if (original) {
       const translated = translateText(original);
       if (original !== translated) {
         node.textContent = translated;
+        translatedNodes.add(node);
       }
     }
   }
@@ -83,11 +88,14 @@ function processPendingTranslations(): void {
     if (node.nodeType === Node.ELEMENT_NODE) {
       translateElement(node as Element);
     } else if (node.nodeType === Node.TEXT_NODE) {
+      if (translatedNodes.has(node)) continue;
+
       const original = node.textContent;
       if (original) {
         const translated = translateText(original);
         if (original !== translated) {
           node.textContent = translated;
+          translatedNodes.add(node);
         }
       }
     }
