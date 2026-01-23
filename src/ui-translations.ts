@@ -5,6 +5,8 @@
 // }
 
 const enTranslations: Record<string, string> = {
+    "重置数据确认": "Confirm Data Reset",
+    "归档当前数据并重置，保存到历史记录": "Archive current data and reset, save to history",
     "安静时间": "Quiet Time",
     "最短间隔": "Minimum Interval",
     "最长间隔": "Maximum Interval",
@@ -101,7 +103,7 @@ const enTranslations: Record<string, string> = {
 
     "请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏": "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character",
     "先在游戏设置内点击开启日志，然后重新选择角色进入游戏": "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character",
-    "保存上一次记录的数据到历史记录，开始新的刷图记录": "Saves the data from your last session to history",
+    "保存上一次记录的数据到历史记录，开始新的刷图记录": "Archive session's data and reset, save to history",
     "请整理背包或小退重选人物才能正常记录物品数据": "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character",
     "基于当前时间范围汇总策略、收益与地图表现": "Summarize strategy, profit, and map performance based on the current time range",
     "从当前时间范围的地图记录中提炼策略表现": "Extract strategy performance from map records within the current time range",
@@ -109,6 +111,7 @@ const enTranslations: Record<string, string> = {
     "从进第一张图到最后出图之间总时长": "Total time from first map entry to last exit",
     "日志未打开或背包未整理": "Failed to load item data",
     "注：传奇均为未鉴定价格": "Note: Legendary items priced as unidentified",
+    "当前记录的角色": "Character in Current Session",
     "检测到上一次刷图数据": "Last Session was on Character",
     "保存并开始新记录": "Save and Start New Session",
     "S11赛季在线": "S11 ETOR Users:",
@@ -225,6 +228,10 @@ const enTranslations: Record<string, string> = {
     "信标": "Beacon",
     "化石": "Fossil",
     "钢图": "Steel Forge",
+    "雷图": "Thunder Wastes",
+    "冰图": "Glacial Abyss",
+    "火图": "Lava Sea",
+    "暗图": "Void Lands",
     "本图": "This Map",
     "次数": "Runs",
     "用时": "Duration",
