@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      7zip-min:
+        specifier: ^2.1.0
+        version: 2.1.0
       '@types/node':
         specifier: ^25.0.10
         version: 25.0.10
@@ -19,6 +22,12 @@ importers:
         version: 5.9.3
 
 packages:
+
+  7zip-bin@5.1.1:
+    resolution: {integrity: sha512-sAP4LldeWNz0lNzmTird3uWfFDWWTeg6V/MsmyyLR9X1idwKBWIgt/ZvinqQldJm3LecKEs1emkbquO6PCiLVQ==}
+
+  7zip-min@2.1.0:
+    resolution: {integrity: sha512-6uoMmPaasBQOyEuMIuNnASA6mF6ZfNmhsKdxJiEbtkHt9DkrJ0w1cZwyNdkDeOKjR2c5gOQAEkvMN3gyZ9MEBw==}
 
   '@esbuild/aix-ppc64@0.27.2':
     resolution: {integrity: sha512-GZMB+a0mOMZs4MpDbj8RJp4cw+w1WV5NYD6xzgvzUJ5Ek2jerwfO2eADyI6ExDSUED+1X8aMbegahsJi+8mgpw==}
@@ -209,6 +218,12 @@ packages:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
 snapshots:
+
+  7zip-bin@5.1.1: {}
+
+  7zip-min@2.1.0:
+    dependencies:
+      7zip-bin: 5.1.1
 
   '@esbuild/aix-ppc64@0.27.2':
     optional: true
