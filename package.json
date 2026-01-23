@@ -1,6 +1,6 @@
 {
   "name": "tlidb-translator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translation system for Torchlight Infinite DB - CN/EN",
   "type": "module",
   "scripts": {
