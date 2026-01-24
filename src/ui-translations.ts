@@ -124,6 +124,18 @@ const characterClassTranslations: Translations = {
     }
 }
 
+const notificationPetTranslations: Translations = {
+    "你的": {
+        "en": "Your"
+    },
+    "只剩": {
+        "en": "Only "
+    },
+    "个啦，请及时补充哦~": {
+        "en": " left, please replenish!"
+    }
+}
+
 const uiTranslations: Translations = {
     "请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏": {
         "en": "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character"
@@ -1101,7 +1113,7 @@ const uiTranslations: Translations = {
 
 const buildLangMap = (lang: Lang): Record<string, string> => {
     const result: Record<string, string> = {};
-    for (const [key, value] of Object.entries({ ...characterClassTranslations, ...patchNotes, ...uiTranslations })) {
+    for (const [key, value] of Object.entries({ ...characterClassTranslations, ...notificationPetTranslations, ...patchNotes, ...uiTranslations })) {
         result[key] = value[lang] ?? value.en;
     }
     return result;
