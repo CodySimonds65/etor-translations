@@ -211,6 +211,9 @@ const uiTranslations: Translations = {
     "渴瘾症": {
         en: "Vorax Theater"
     },
+    "大亨": {
+        en: "Sandlord Oasis"
+    },
     "最低价格": {
         en: "Min Price"
     },
