@@ -4,6 +4,9 @@ import { atlasTalentTranslations } from "./atlas-talents"
 import { Lang, Translations } from "./translations.types"
 
 const patchNotes: Translations = {
+    "在各个模块中添加根据ItemsType的价值分布图": {
+        en: "Added value distribution charts by ItemsType in various modules"
+    },
     "更新日志": {
         en: "Changelog"
     },
@@ -224,7 +227,7 @@ const uiTranslations: Translations = {
         en: "No price data available"
     },
     "记录状态异常！！！请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏！！": {
-      en: "Error! Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character!!"  
+      en: "Error! Please \"Enable Log\" in \"Settings -> Other\" then reselect your character!!"  
     },
     "万界": {
         en: "Rift of Dimensions"
@@ -316,13 +319,13 @@ const uiTranslations: Translations = {
         en: "Mode"
     },
     "请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏": {
-        en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character"
+        en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your whole backpack, or reselect your character"
     },
     "由于日志原因，棱镜无法区分稀有度，改为默认更新紫色价格": {
         en: "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
     },
     "先在游戏设置内点击开启日志，然后重新选择角色进入游戏": {
-        en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character"
+        en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your whole backpack, or reselect your character"
     },
     "调整极简模式下的文字大小（70% - 180%）": {
         en: "Adjust the font size in Mini Window mode (70% - 180%)"
@@ -334,7 +337,7 @@ const uiTranslations: Translations = {
         en: "Upload custom image (JPG/PNG/GIF supported)"
     },
     "请整理背包或小退重选人物才能正常记录物品数据": {
-        en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character"
+        en: "Please \"Enable Log\" in \"Settings -> Other\" then sort your whole backpack, or reselect your character"
     },
     "选择背景图片（支持 JPG/PNG/GIF": {
         en: "Select background image (JPG/PNG/GIF supported)"
