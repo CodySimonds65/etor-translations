@@ -18184,6 +18184,9 @@
     "\u6E34\u763E\u75C7": {
       en: "Vorax Theater"
     },
+    "\u5927\u4EA8": {
+      en: "Sandlord Oasis"
+    },
     "\u6700\u4F4E\u4EF7\u683C": {
       en: "Min Price"
     },
