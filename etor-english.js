@@ -17982,6 +17982,12 @@
 
   // src/ui-translations.ts
   var patchNotes = {
+    "\u5F81\u6218": {
+      en: "War"
+    },
+    "\u901A\u7F09": {
+      en: "Outlaw"
+    },
     "\u73A9\u5076": {
       en: "Clockwork"
     },
