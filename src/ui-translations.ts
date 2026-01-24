@@ -4,7 +4,7 @@
 //     aaa[chinese] = english;
 // }
 
-const enPatchNotes: Record<string, {en: string, ja?: string, ko?: string, ru?: string}> = {
+const patchNotes: Record<string, {en: string, ja?: string, ko?: string, ru?: string}> = {
     "更新日志": {
         "en": "Changelog"
     },
