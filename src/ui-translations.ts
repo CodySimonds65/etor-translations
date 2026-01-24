@@ -4,7 +4,10 @@
 //     aaa[chinese] = english;
 // }
 
-const patchNotes: Record<string, {en: string, ja?: string, ko?: string, ru?: string}> = {
+type Lang = "en" | "ko" | "ja" | "ru";
+type Translations = Record<string, { en: string } & Partial<Record<Exclude<Lang, "en">, string>>>;
+
+const patchNotes: Translations = {
     "更新日志": {
         "en": "Changelog"
     },
@@ -40,7 +43,88 @@ const patchNotes: Record<string, {en: string, ja?: string, ko?: string, ru?: str
     }
 }
 
-const uiTranslations: Record<string, {en: string, ja?: string, ko?: string, ru?: string}> = {
+const characterClassTranslations: Translations = {
+    "时空1": {
+        "en": "Y1"
+    },
+    "时空2": {
+        "en": "Y2"
+    },
+    "时空3": {
+        "en": "Y3"
+    },
+    "召唤1": {
+        "en": "M1"
+    },
+    "召唤2": {
+        "en": "M2"
+    },
+    "罗莎1": {
+        "en": "Ro1"
+    },
+    "罗莎2": {
+        "en": "Ro2"
+    },
+    "魔灵1": {
+        "en": "I1"
+    },
+    "魔灵2": {
+        "en": "I2"
+    },
+    "魔灵3": {
+        "en": "I3"
+    },
+    "狂1": {
+        "en": "Re1"
+    },
+    "狂2": {
+        "en": "Re2"
+    },
+    "枪1": {
+        "en": "C1"
+    },
+    "枪2": {
+        "en": "C2"
+    },
+    "枪3": {
+        "en": "C3"
+    },
+    "猫1": {
+        "en": "E1"
+    },
+    "猫2": {
+        "en": "E2"
+    },
+    "猫3": {
+        "en": "E3"
+    },
+    "宾1": {
+        "en": "B1"
+    },
+    "宾2": {
+        "en": "B2"
+    },
+    "冰1": {
+        "en": "G1"
+    },
+    "冰2": {
+        "en": "G2"
+    },
+    "冰3": {
+        "en": "G3"
+    },
+    "月1": {
+        "en": "S1"
+    },
+    "月2": {
+        "en": "S2"
+    },
+    "月3": {
+        "en": "S3"
+    }
+}
+
+const uiTranslations: Translations = {
     "请在游戏设置界面开启日志，点击返回登录，选择角色重新进入游戏": {
         "en": "Please \"Enable Log\" in \"Settings -> Other\" then sort your backpack, or reselect your character"
     },
@@ -743,36 +827,6 @@ const uiTranslations: Record<string, {en: string, ja?: string, ko?: string, ru?:
     "爱玩榜": {
         "en": "Maps Leaderboard"
     },
-    "时空1": {
-        "en": "Y1"
-    },
-    "时空2": {
-        "en": "Y2"
-    },
-    "时空3": {
-        "en": "Y3"
-    },
-    "召唤1": {
-        "en": "M1"
-    },
-    "召唤2": {
-        "en": "M2"
-    },
-    "罗莎1": {
-        "en": "Ro1"
-    },
-    "罗莎2": {
-        "en": "Ro2"
-    },
-    "魔灵1": {
-        "en": "I1"
-    },
-    "魔灵2": {
-        "en": "I2"
-    },
-    "魔灵3": {
-        "en": "I3"
-    },
     "更新于": {
         "en": "Updated At"
     },
@@ -829,54 +883,6 @@ const uiTranslations: Record<string, {en: string, ja?: string, ko?: string, ru?:
     },
     "图内": {
         "en": "Current Map"
-    },
-    "狂1": {
-        "en": "Re1"
-    },
-    "狂2": {
-        "en": "Re2"
-    },
-    "枪1": {
-        "en": "C1"
-    },
-    "枪2": {
-        "en": "C2"
-    },
-    "枪3": {
-        "en": "C3"
-    },
-    "猫1": {
-        "en": "E1"
-    },
-    "猫2": {
-        "en": "E2"
-    },
-    "猫3": {
-        "en": "E3"
-    },
-    "宾1": {
-        "en": "B1"
-    },
-    "宾2": {
-        "en": "B2"
-    },
-    "冰1": {
-        "en": "G1"
-    },
-    "冰2": {
-        "en": "G2"
-    },
-    "冰3": {
-        "en": "G3"
-    },
-    "月1": {
-        "en": "S1"
-    },
-    "月2": {
-        "en": "S2"
-    },
-    "月3": {
-        "en": "S3"
     },
     "策略": {
         "en": "Strategy"
@@ -1092,3 +1098,18 @@ const uiTranslations: Record<string, {en: string, ja?: string, ko?: string, ru?:
         "en": "Hour"
     }
 }
+
+const buildLangMap = (lang: Lang): Record<string, string> => {
+    const result: Record<string, string> = {};
+    for (const [key, value] of Object.entries({ ...characterClassTranslations, ...patchNotes, ...uiTranslations })) {
+        result[key] = value[lang] ?? value.en;
+    }
+    return result;
+};
+
+export const uiTranslationsMap = {
+    en: buildLangMap("en"),
+    ko: buildLangMap("ko"),
+    ja: buildLangMap("ja"),
+    ru: buildLangMap("ru"),
+};
