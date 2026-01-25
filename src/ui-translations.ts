@@ -229,6 +229,9 @@ const tempBruteForceTranslations: Translations = {
     },
 }
 const uiTranslations: Translations = {
+    "巨力": {
+        en: "Might"
+    },
     "搜索物品名称": {
         en: "Search item name(CN)"
     },
