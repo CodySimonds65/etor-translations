@@ -313,7 +313,7 @@ const uiTranslations: Translations = {
         en: "Quantity"
     },
     "搜索标签": {
-        en: "Search Tags"
+        en: "Search Tags(CN)"
     },
     "至少 30 张图参与统计": {
         en: ">30 maps required for statistics"
