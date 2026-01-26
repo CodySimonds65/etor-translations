@@ -690,6 +690,9 @@ const uiTranslations: Translations = {
     "渴瘾残肢": {
         en: "Amputated Limb"
     },
+    "塔罗": {
+        en: "Arcana"
+    },
     "普通器官": {
         en: "Common Organ"
     },
