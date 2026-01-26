@@ -730,7 +730,7 @@ const uiTranslations: Translations = {
         en: "Current Efficiency:"
     },
     "未知惊喜": {
-        en: "Unknown Loot" // Might be `Unidentified
+        en: "Unidentified Items"
     },
     "我先安静": {
         en: "Sleep for"
@@ -1075,7 +1075,7 @@ const uiTranslations: Translations = {
         en: "Kismet"
     },
     "未知": {
-        en: "Unknown" // Might be `Unidentified
+        en: "Unidentified"
     },
     "设置": {
         en: "Settings"

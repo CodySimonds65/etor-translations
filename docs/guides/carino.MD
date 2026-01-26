@@ -114,6 +114,9 @@ Debuffs we are trying to maintain:
 
 ### Traveler 8 @ 10b DP5S (30b preferred)
 
+### Profound Watchers @ 50b DP5S
+
+
 ### Profound - ArcanaJack (100-200b DP5S)
 
 ### Deep Space - Overrealm
@@ -265,7 +268,8 @@ Used early for pushing, change it to corners/starlights later
 
 #### BB swap
 1. Blazing Bullet: Dual Resonance (Noble) **REQUIRED**
-1. Blazing Bullet: Fiery Blast (Magnificent) **REQUIRED**
+1. Blazing Bullet: Fiery Blast (Magnificent)
+    - Temporarily replace with `Attack Focus` to save money
 1. Precise: Elemental Resistance
 1. Precise: Steadfast
 1. Precise: Energy Fortress
