@@ -17982,6 +17982,36 @@
 
   // src/ui-translations.ts
   var patchNotes = {
+    "https://drive.google.com/file/d/1SRTJRiegM-iWIWJPDpb00acOzMz8etDP": {
+      en: "[Non-Portable URL Install Hidden due to security risks]"
+    },
+    "\u5728\u5404\u4E2A\u6A21\u5757\u4E2D\u6DFB\u52A0\u6839\u636E\u7269\u54C1\u7C7B\u578B\u7684\u4EF7\u503C\u5206\u5E03\u56FE": {
+      en: "Added value distribution charts by item type in various modules"
+    },
+    "\u4F18\u5316\u684C\u5BA0\u6210\u672C\u63D0\u793A\uFF0C\u5728\u8FDB\u5165\u4E3B\u57CE\u65F6\u63D0\u9192": {
+      en: "Optimized notification pet cost alerts, now triggers when idle in town"
+    },
+    "\u4F18\u5316\u7B56\u7565\u5DE5\u4F5C\u53F0\u9762\u677F\u5E03\u5C40,\u652F\u6301\u5B9E\u65F6\u7B56\u7565\u6536\u76CA\u548C\u6548\u7387\u8BA1\u7B97": {
+      en: "Optimized Strategy Workbench panel layout, supports real-time strategy profit and efficiency calculation"
+    },
+    "\u7B56\u7565\u699C\u6807\u7B7E\u652F\u6301\u53CD\u9009": {
+      en: "Strategy Leaderboard tag supports deselection"
+    },
+    "\u4FEE\u590D\u5386\u53F2\u8BB0\u5F55\u4E2D\u603B\u65F6\u95F4\u548C\u56FE\u5185\u65F6\u95F4\u5C55\u793A\u4E0D\u660E\u786E\u7684\u95EE\u9898": {
+      en: "Fixed issue with unclear display of total time and in-map time in history records"
+    },
+    "\u652F\u6301\u6536\u76CA\u6392\u9664\u7269\u54C1\uFF0C\u5728\u4EF7\u683C\u5E93\u4E2D\u914D\u7F6E\u6392\u9664\u7269\u54C1\uFF0C\u6392\u9664\u7269\u54C1\u4E0D\u4F1A\u8BA1\u5165\u6536\u76CA\u8BA1\u7B97": {
+      en: "Added support for excluding items from profit, which can be configured in the price database"
+    },
+    "\u4FEE\u590D\u6210\u672C\u7269\u54C1\u5217\u8868\u4EF7\u683C\u663E\u793A\u9519\u8BEF\u7684\u95EE\u9898": {
+      en: "Fixed issue with incorrect price display in cost item list"
+    },
+    "\u4F18\u5316\u5386\u53F2\u8BB0\u5F55\u8F6E\u6B21\u9009\u62E9\uFF0C\u4FEE\u590D\u5386\u53F2\u8BB0\u5F55\u62FE\u53D6\u603B\u89C8\u5305\u542B\u6210\u672C\u7684bug": {
+      en: "Optimized history session selection, fixed bug where loot overview included cost items"
+    },
+    "\u521D\u6B65\u5B8C\u6210\u56FD\u9645\u5316\u82F1\u6587\u7248\u672C\uFF0C\u5E76\u63D0\u4F9B\u4E00\u4E2A\u652F\u6301\u6D77\u5916\u7F51\u7EDC\u7684\u5B89\u88C5\u5305,\u540E\u7EED\u9010\u6B65\u5B9E\u73B0\u6240\u6709\u7269\u54C1\u82F1\u6587\u6587\u672C": {
+      en: "Initial release of English version with support for overseas networks, with gradual implementation of English text for all items"
+    },
     "\u5929\u8D4B\u6811": {
       en: "Constellation"
     },
@@ -18097,9 +18127,11 @@
     },
     "\u5BBE1": {
       en: "B1"
+      // Confirmed
     },
     "\u5BBE2": {
       en: "B2"
+      // Confirmed
     },
     "\u51B01": {
       en: "G1"
@@ -18320,6 +18352,9 @@
     "\u73A9\u6CD5": {
       en: "Mode"
     },
+    "\u6B63\u5728\u52A0\u8F7D\u6613\u706B": {
+      en: "Loading..."
+    },
     "\u8BF7\u5728\u6E38\u620F\u8BBE\u7F6E\u754C\u9762\u5F00\u542F\u65E5\u5FD7\uFF0C\u70B9\u51FB\u8FD4\u56DE\u767B\u5F55\uFF0C\u9009\u62E9\u89D2\u8272\u91CD\u65B0\u8FDB\u5165\u6E38\u620F": {
       en: 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
     },
@@ -18327,7 +18362,7 @@
       en: "Due to log limitations, Prism rarity cannot be distinguished, defaulting to purple price updates"
     },
     "\u5148\u5728\u6E38\u620F\u8BBE\u7F6E\u5185\u70B9\u51FB\u5F00\u542F\u65E5\u5FD7\uFF0C\u7136\u540E\u91CD\u65B0\u9009\u62E9\u89D2\u8272\u8FDB\u5165\u6E38\u620F": {
-      en: 'Please "Enable Log" in "Settings -> Other" then sort your whole backpack, or reselect your character'
+      en: 'Please "Enable Log" in "Settings -> Other" then reselect your character'
     },
     "\u8C03\u6574\u6781\u7B80\u6A21\u5F0F\u4E0B\u7684\u6587\u5B57\u5927\u5C0F\uFF0870% - 180%\uFF09": {
       en: "Adjust the font size in Mini Window mode (70% - 180%)"
@@ -18494,17 +18529,32 @@
     "\u6781\u7B80\u6A21\u5F0F\u663E\u793A\u9879": {
       en: "Mini Window Display Items"
     },
+    "\u7B80\u4F53\u4E2D\u6587": {
+      en: "Translated English"
+    },
+    "\u5468\u4E00": {
+      en: "Mon."
+    },
+    "\u5468\u65E5": {
+      en: "Sun."
+    },
+    "\u5468\u516D": {
+      en: "Sat."
+    },
+    "\u5468\u4E94": {
+      en: "Fri."
+    },
     "\u5F53\u524D\u8BB0\u5F55\u7684\u89D2\u8272": {
       en: "Character in Current Session"
     },
     "S11\u8D5B\u5B63\u5728\u7EBF": {
-      en: "S11 ETOR Users:"
+      en: "Season 11 Online"
     },
-    "\u6613\u706B ETor": {
+    "YiHuo ETor": {
       en: "\u6613\u706B ETor (CF)"
     },
-    "\u6613\u706B-ETor": {
-      en: "\u6613\u706B-ETor (CF)"
+    "YiHuo-ETor": {
+      en: "\u6613\u706B ETor (CF)"
     },
     "\u603B\u6536\u76CA(\u6263\u7A0E)": {
       en: "Total Profit (After Tax)"
@@ -18786,7 +18836,7 @@
       en: "History"
     },
     "\u7B56\u7565\u5206\u6790": {
-      en: "Strategy Analysis"
+      en: "Analytics"
     },
     "\u5C0F\u7A97\u6A21\u5F0F": {
       en: "Mini Window"
@@ -19085,6 +19135,18 @@
     "\u56FE\u5185": {
       en: "Current Map"
     },
+    "\u7B56\u7565\u6982\u89C8": {
+      en: "Strategy Overview"
+    },
+    "\u8BE6\u60C5": {
+      en: "Details"
+    },
+    "\u7B56\u7565\u5360\u6BD4": {
+      en: "Usage Rate"
+    },
+    "\u5F53\u524D\u6307\u6807": {
+      en: "Current Metrics"
+    },
     "\u7B56\u7565": {
       en: "Strategy"
     },
@@ -19159,6 +19221,9 @@
     },
     "\u6536\u76CA": {
       en: "Profit"
+    },
+    "\u5E73\u5747\u6548\u7387": {
+      en: "Avg Efficiency"
     },
     "\u6548\u7387": {
       en: "Efficiency"
@@ -19338,6 +19403,26 @@
         }
       }
     }
+    const langSwitchers = root.querySelectorAll(".language-switcher");
+    for (const el of langSwitchers) {
+      const container = el.closest(".px-1");
+      const target = container ?? el;
+      if (!hiddenElements.has(target)) {
+        target.style.display = "none";
+        hiddenElements.add(target);
+      }
+    }
+    const modalHeaders = root.querySelectorAll(".modal-header");
+    for (const header of modalHeaders) {
+      const title = header.querySelector("h2");
+      if (title?.textContent?.includes("Confirm Data Reset")) {
+        const closeBtn = header.querySelector('button[aria-label="\u5173\u95ED"]');
+        if (closeBtn && !hiddenElements.has(closeBtn)) {
+          closeBtn.style.display = "none";
+          hiddenElements.add(closeBtn);
+        }
+      }
+    }
   }
   function translateText(text) {
     let result = text;
@@ -19410,6 +19495,11 @@
       }
     }
   }
+  var app = document.querySelector("#app")?.__vue_app__;
+  if (app) {
+    const i18n = app.config.globalProperties.$i18n;
+    if (i18n && i18n.locale !== "en-US") i18n.locale = "en-US";
+  }
   hideUnwantedElements(document);
   translateElement(document.body);
   var observer = new MutationObserver((mutations) => {
@@ -19432,4 +19522,35 @@
     subtree: true,
     characterData: true
   });
+  var portalModalObserver = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      for (const node of mutation.addedNodes) {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          const el = node;
+          if (el.id === "headlessui-portal-root") {
+            observer.observe(el, {
+              childList: true,
+              subtree: true,
+              characterData: true
+            });
+            portalModalObserver.disconnect();
+            break;
+          }
+        }
+      }
+    }
+  });
+  var existingPortalModal = document.querySelector("#headlessui-portal-root");
+  if (existingPortalModal) {
+    observer.observe(existingPortalModal, {
+      childList: true,
+      subtree: true,
+      characterData: true
+    });
+  } else {
+    portalModalObserver.observe(document.body, {
+      childList: true,
+      subtree: false
+    });
+  }
 })();
