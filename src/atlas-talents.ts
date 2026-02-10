@@ -1,6 +1,9 @@
 import { Translations } from "./translations.types"
 
 export const atlasTalentTranslations: Translations = {
+    "大型节点": {
+        en: "Major Node"
+    },
     "起始节点": {
         en: "Initial Node"
     },
@@ -9,9 +12,6 @@ export const atlasTalentTranslations: Translations = {
     },
     "中型节点": {
         en: "Medium Node"
-    },
-    "大型节点": {
-        en: "Major Node"
     },
     "懊悔-梦魇": {
         en: "Regretful - Nightmare"
@@ -70,10 +70,10 @@ export const atlasTalentTranslations: Translations = {
     "叠界中的每一层 +15% 概率出现守门人": {
         en: "+15% chance for Doorkeepers to appear in each level of the Overrealm"
     },
-    "叠界中的漂浮头颅、逆模因之笼、\"狩门人\"会标记在小地图上": {
+    "叠界中的漂浮头颅、逆模因之笼、“狩门人”会标记在小地图上": {
         en: "In the Overrealm, Floating Skull, Antimemetic Cage, and \"Doorhunter\" are marked on the Minimap"
     },
-    "叠界中的守门人被击败时， +16% 概率引来\"狩门人\"": {
+    "叠界中的守门人被击败时， +16% 概率引来“狩门人”": {
         en: "+ 16% chance for a Doorkeeper to appear when \"Doorhunter\" is defeated in the Overrealm"
     },
     "叠界中掉落数量额外 +1.5%": {
@@ -436,7 +436,7 @@ export const atlasTalentTranslations: Translations = {
     "异界关卡中 +10% 概率出现机械之神的试炼": {
         en: "+10% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    "异界关卡中 +10% 概率出现进入叠界的\"门\"": {
+    "异界关卡中 +10% 概率出现进入叠界的“门”": {
         en: "In Netherrealm stages, +10% chance for the \"Door\" leading to the Overrealm to appear"
     },
     "异界关卡中 +10% 概率出现巨力之神的试炼": {
@@ -463,7 +463,7 @@ export const atlasTalentTranslations: Translations = {
     "异界关卡中 +15% 概率出现机械之神的试炼": {
         en: "+15% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    "异界关卡中 +15% 概率出现进入叠界的\"门\"": {
+    "异界关卡中 +15% 概率出现进入叠界的“门”": {
         en: "In Netherrealm stages, +15% chance for the \"Door\" leading to the Overrealm to appear"
     },
     "异界关卡中 +15% 概率出现巨力之神的试炼": {
@@ -490,7 +490,7 @@ export const atlasTalentTranslations: Translations = {
     "异界关卡中 +23% 概率出现机械之神的试炼": {
         en: "+23% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    "异界关卡中 +23% 概率出现进入叠界的\"门\"": {
+    "异界关卡中 +23% 概率出现进入叠界的“门”": {
         en: "In Netherrealm stages, +23% chance for the \"Door\" leading to the Overrealm to appear"
     },
     "异界关卡中 +23% 概率出现巨力之神的试炼": {
@@ -517,7 +517,7 @@ export const atlasTalentTranslations: Translations = {
     "异界关卡中 +3% 概率出现机械之神的试炼": {
         en: "+3% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    "异界关卡中 +3% 概率出现进入叠界的\"门\"": {
+    "异界关卡中 +3% 概率出现进入叠界的“门”": {
         en: "In Netherrealm stages, +3% chance for the \"Door\" leading to the Overrealm to appear"
     },
     "异界关卡中 +3% 概率出现巨力之神的试炼": {
@@ -544,7 +544,7 @@ export const atlasTalentTranslations: Translations = {
     "异界关卡中 +4% 概率出现机械之神的试炼": {
         en: "+4% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    "异界关卡中 +4% 概率出现进入叠界的\"门\"": {
+    "异界关卡中 +4% 概率出现进入叠界的“门”": {
         en: "In Netherrealm stages, +4% chance for the \"Door\" leading to the Overrealm to appear"
     },
     "异界关卡中 +4% 概率出现巨力之神的试炼": {
@@ -571,7 +571,7 @@ export const atlasTalentTranslations: Translations = {
     "异界关卡中 +6% 概率出现机械之神的试炼": {
         en: "+6% chance for Trial: God of Machines to appear in Netherrealm stages"
     },
-    "异界关卡中 +6% 概率出现进入叠界的\"门\"": {
+    "异界关卡中 +6% 概率出现进入叠界的“门”": {
         en: "In Netherrealm stages, +6% chance for the \"Door\" leading to the Overrealm to appear"
     },
     "异界关卡中 +6% 概率出现巨力之神的试炼": {

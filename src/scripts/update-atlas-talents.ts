@@ -90,9 +90,9 @@ function parseExistingTranslations(filePath: string): Translations {
     const content = fs.readFileSync(filePath, 'utf-8');
 
     // Extract the atlasTypes object content
-    const match = content.match(/const atlasTypes = \{([\s\S]*?)\n\}/);
+    const match = content.match(/export const atlasTalentTranslations:\s*Translations\s*=\s*\{([\s\S]*?)\n\}/);
     if (!match) {
-        console.log('No existing atlasTypes found, starting fresh');
+        console.log('No existing atlasTalentTranslations found, starting fresh');
         return {};
     }
 
