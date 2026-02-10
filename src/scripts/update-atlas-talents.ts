@@ -7,8 +7,8 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const ETOR_JS_URL = 'https://etor-beta.710421059.xyz/assets/index-BO2XGuE-.js'; // UPDATE THIS PRIOR TO RUNNIN THE SCRIPT
-const ATLAS_TALENTS_PATH = path.join(__dirname, '../src/atlas-talents.ts');
+const ETOR_JS_URL = 'https://etor-beta.710421059.xyz/assets/index-CiTrttUs.js'; // UPDATE THIS PRIOR TO RUNNIN THE SCRIPT
+const ATLAS_TALENTS_PATH = path.join(__dirname, '../atlas-talents.ts');
 
 const JSON_PATTERN = /JSON\.parse\('\[\{"id":"connections".*?\}\]\}]'\)/g;
 
