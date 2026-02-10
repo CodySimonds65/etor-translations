@@ -8,13 +8,32 @@
 
 import { existsSync, readFileSync, writeFileSync, copyFileSync } from 'fs';
 
-// TODO: Study what commands are actually needed and tighten this list further.
-const SAFE_COMMANDS_REGEX = String.raw`/^(ls|dir|echo|whoami|hostname|pwd|cd|type|cat|wmic\s+(os|cpu)|systeminfo|ver|date|time|chcp|tasklist|powershell\s+-Command\s+"\(Get-Process\s+-Id\s+\d+\)\.Path")/i`;
+// Only allow the exact command shapes the app actually uses.
+const ALLOWED_COMMANDS = [
+  // chcp <code> > NUL && tasklist /FI "IMAGENAME eq <name>.exe" /FO LIST
+  'chcp\\s+\\d+\\s*>\\s*NUL\\s*&&\\s*tasklist\\s+\\/FI\\s+"IMAGENAME eq [\\w.-]+\\.exe"\\s+\\/FO\\s+LIST',
+  // powershell -Command "(Get-Process -Id <pid>).Path"
+  'powershell\\s+-Command\\s+"\\(Get-Process\\s+-Id\\s+\\d+\\)\\.Path"',
+];
+
+function buildSafeCommandsRegex(): string {
+  return `/^(${ALLOWED_COMMANDS.join('|')})$/i`;
+}
 
 const PATTERN = /'runShellCommand':([_a-zA-Z0-9$]+)=>\{?[^}]*ipcRenderer\[([^\]]+)\]\('run-shell-command',[^)]+\)\}?/;
 
 function createBlockerCode(param: string, invoke: string): string {
-  return `'runShellCommand':${param}=>{const _s=${SAFE_COMMANDS_REGEX};const _ok=_s.test(${param});console.log('[SHELL]',new Date().toISOString(),_ok?'ALLOWED':'BLOCKED',${param});if(!_ok)return Promise.resolve({stdout:'',stderr:'Command not allowed',error:'Forbidden'});return ipcRenderer[${invoke}]('run-shell-command',${param})}`;
+  const regex = buildSafeCommandsRegex();
+  const lines = [
+    `'runShellCommand':${param}=>{`,
+    `const allowlist=${regex};`,
+    `const allowed=allowlist.test(${param});`,
+    `console.log('[SHELL]',new Date().toISOString(),allowed?'ALLOWED':'BLOCKED',${param});`,
+    `if(!allowed)return Promise.resolve({stdout:'',stderr:'Command not allowed',error:'Forbidden'});`,
+    `return ipcRenderer[${invoke}]('run-shell-command',${param})`,
+    `}`,
+  ];
+  return lines.join('');
 }
 
 export function injectShellBlocker(content: string): string {
