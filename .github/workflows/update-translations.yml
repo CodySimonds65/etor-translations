@@ -52,21 +52,32 @@ jobs:
           add: '.'
           push: false
 
-      - name: Bump patch version and push
-        if: steps.commit.outputs.committed == 'true'
-        id: version
+      - name: ⏫ Bumping version (semantic)
+        if: github.ref_type != 'tag' && github.actor != 'github-actions[bot]'
+        id: bumping-version
+        uses: jpb06/bump-package@latest
+        continue-on-error: true
+        with:
+          major-keywords: BREAKING CHANGE
+          minor-keywords: feat,minor
+          patch-keywords: fix,chore
+
+      - name: 🔁 Fallback bump (patch)
+        if: github.ref_type != 'tag' && github.actor != 'github-actions[bot]' && steps.bumping-version.outcome == 'failure'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Bump patch version, create tag and commit
-          npm version patch -m "chore: release %s"
-          # Extract new version
-          NEW_VERSION=$(node -p "require('./package.json').version")
-          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
-          # Push commit and tags
+          pnpm version patch -m "chore: release %s"
           git push
           git push --tags
+
+      - name: Get new version
+        if: steps.commit.outputs.committed == 'true'
+        id: version
+        run: |
+          NEW_VERSION=$(node -p "require('./package.json').version")
+          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         if: steps.commit.outputs.committed == 'true'
